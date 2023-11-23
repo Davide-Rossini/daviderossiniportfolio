@@ -9,7 +9,7 @@
     justify-content: space-between;
     position: sticky;
     top: 0;
-    z-index: 4;
+    z-index: 3;
 }
 
 .logo{
@@ -21,4 +21,25 @@
 .desktopMenuListItem{
     margin: 1rem;
     cursor: pointer;
+
+}
+
+.desktopMenuListItem:hover{
+    color: white;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid white;
+}
+
+.desktopMenuBtn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.desktopMenuImg{
+    height: 2rem;
+    width: 2rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
 }

@@ -1,7 +1,8 @@
 import React from "react";
 import "./navbar.css";
 import logo from "../../assets/logo.png";
-import { Link } from "react-scroll";
+import github from "../../assets/github.png";
+import { Button, Link } from "react-scroll";
 
 export const Navbar = () => {
     return (
@@ -12,6 +13,9 @@ export const Navbar = () => {
                 <Link className="desktopMenuListItem">About</Link>
                 <Link className="desktopMenuListItem">Contact me</Link>
             </div>
+            <button className="desktopMenuBtn">
+                <img src={github} alt="" className="desktopMenuImg"></img>
+            </button>
         </nav>
     );
 };
