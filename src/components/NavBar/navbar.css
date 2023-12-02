@@ -1,4 +1,6 @@
-.navbar{
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&family=Rubik&display=swap');
+
+.navbar {
     height: 5rem;
     width: 100vh;
     max-width: 75rem;
@@ -10,36 +12,45 @@
     position: sticky;
     top: 0;
     z-index: 3;
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards;
 }
 
-.logo{
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.logo {
     object-fit: cover;
     height: 3rem;
     width: 4rem;
 }
 
-.desktopMenuListItem{
+.desktopMenuListItem {
     margin: 1rem;
     cursor: pointer;
-
 }
 
-.desktopMenuListItem:hover{
+.desktopMenuListItem:hover {
     color: white;
     padding-bottom: 0.5rem;
     border-bottom: 3px solid white;
 }
 
-.desktopMenuBtn{
+.desktopMenuBtn {
     background-color: transparent;
     border: none;
     outline: none;
     cursor: pointer;
 }
 
-.desktopMenuImg{
+.desktopMenuImg {
     height: 2rem;
     width: 2rem;
     object-fit: cover;
     border-radius: 0.5rem;
 }
+/* Fine del file navbar.css */

@@ -1,15 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&family=Rubik&display=swap');
 
-*{
-    font-family: 'Rubic', sans-serif;
+* {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#intro{
+body {
+    overflow: hidden;
+}
+
+#intro {
     height: calc(100vh - 4rem);
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards;
+    left: 0; /* Allineato a sinistra */
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .bg {
@@ -22,29 +42,56 @@
     width: 50%;
 }
 
-.introContent{
-    height: 100vh;
-    width: 100vw;
+.introContent {
     padding: 2rem;
     font-size: 3rem;
     font-weight: 700;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: white;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+    animation: fadeInUp 1s ease-out forwards;
+    align-items: flex-start;
+}
+
+.hello {
+    color: #ff8400;
+}
+
+.introName {
+    color: #FFAE42;
+
+}
+
+.profession {
+    color: #FFD700;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 1rem;
 }
 
 .btn {
     background-color: white;
     border: none;
-    border-radius: 20px; 
+    font-weight: bold;
+    border-radius: 20px;
     cursor: pointer;
     padding: 10px;
     font-size: 0.5em;
-    transition: background-color 0.3s ease;
-    transition: color 0.3s ease; 
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .btn:hover {
     color: white;
-    background-color: #000000;
+    background-color: #282828;
+}
+
+.cntc {
+    vertical-align: -0.15em;
 }
