@@ -13,9 +13,9 @@ const Intro = () => {
                 <p>I am a web developer and designer,</p>
                 <p>proficient in creating visually appealing and functional </p>
                 <p>websites with a strong foundation in coding and design principles.</p>
-                <Link><button className="btn"><img src={contact} alt="Contact" className="cntc" />Contact Me</button></Link>
+                <Link><button draggable="false" className="btn"><img src={contact} alt="Contact" className="cntc" />Contact Me</button></Link>
             </div>
-            <img src={bg} alt="Profile" className="bg"></img>
+            <img draggable="false" src={bg} alt="Profile" className="bg"></img>
         </section>
     );
 };

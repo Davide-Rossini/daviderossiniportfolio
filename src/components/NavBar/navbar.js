@@ -9,11 +9,11 @@ export const Navbar = () => {
         <nav className="navbar">
             <img src={logo} alt="Logo" className="logo" draggable="false"/>
             <div className="desktopMenu">
-                <Link className="desktopMenuListItem">Home</Link>
-                <Link className="desktopMenuListItem">About</Link>
-                <Link className="desktopMenuListItem">Contact me</Link>
+                <Link draggable="false" className="desktopMenuListItem">Home</Link>
+                <Link draggable="false" className="desktopMenuListItem">About</Link>
+                <Link draggable="false" className="desktopMenuListItem">Contact me</Link>
             </div>
-            <button className="desktopMenuBtn">
+            <button draggable="false" className="desktopMenuBtn">
                 <img src={github} alt="" className="desktopMenuImg" draggable="false"></img>
             </button>
         </nav>

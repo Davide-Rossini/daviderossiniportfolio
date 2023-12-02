@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&family=Rubik&display=swap');
 
+
 .navbar {
     height: 5rem;
     width: 100vh;
@@ -34,11 +35,29 @@
     cursor: pointer;
 }
 
-.desktopMenuListItem:hover {
-    color: white;
+.desktopMenuListItem {
+    margin: 1rem;
+    cursor: pointer;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid white;
+    position: relative;
 }
+
+.desktopMenuListItem::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: transparent;
+    transition: height 0.3s ease, background-color 0.3s ease;
+}
+
+.desktopMenuListItem:hover::after {
+    height: 3px;
+    background-color: white;
+}
+
 
 .desktopMenuBtn {
     background-color: transparent;
@@ -53,4 +72,4 @@
     object-fit: cover;
     border-radius: 0.5rem;
 }
-/* Fine del file navbar.css */
+
