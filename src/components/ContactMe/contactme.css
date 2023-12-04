@@ -1,0 +1,15 @@
+.contactme{
+    height: 100%;
+    width: 66vh;
+    border: solid 1px white;
+    border-radius: 10px;
+}
+
+.contactme_sez{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    margin: 1em;
+}

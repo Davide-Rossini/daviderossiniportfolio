@@ -10,6 +10,7 @@ export const Navbar = () => {
             <img src={logo} alt="Logo" className="logo" draggable="false"/>
             <div className="desktopMenu">
                 <Link draggable="false" className="desktopMenuListItem">Home</Link>
+                <Link draggable="false" className="desktopMenuListItem">Projects</Link>
                 <Link draggable="false" className="desktopMenuListItem">About</Link>
                 <Link draggable="false" className="desktopMenuListItem">Contact me</Link>
             </div>

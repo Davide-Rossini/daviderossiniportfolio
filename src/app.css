@@ -1,0 +1,7 @@
+.elementi {
+    display: flex;
+}
+
+.elementi > * {
+    box-sizing: border-box;
+}
