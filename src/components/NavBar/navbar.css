@@ -15,7 +15,10 @@
     z-index: 3;
     opacity: 0;
     animation: fadeInUp 1s ease-out forwards;
+    background-color: rgba(0, 0, 0, 0.9); /* Cambia il valore di alpha a seconda della trasparenza desiderata */
+    border-radius: 10px;
 }
+
 
 @keyframes fadeInUp {
     to {
