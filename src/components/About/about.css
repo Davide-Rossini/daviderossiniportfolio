@@ -1,6 +1,6 @@
 .about{
     height: 100%;
-    width: 66vh;
+    width: 100%;
     border: solid 1px white;
     border-radius: 10px;
 }
@@ -12,4 +12,5 @@
     justify-content: center;
     margin-bottom: 0;
     margin: 1em;
+    text-align: center;
 }

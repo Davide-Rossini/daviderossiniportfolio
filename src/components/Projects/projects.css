@@ -1,5 +1,3 @@
-/* Stile.css */
-
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@900&family=Rubik&display=swap");
 
 * {
@@ -45,8 +43,7 @@ h2{
 }
 
 .meteo_desc {
-    text-align: left;
-    
+    text-align: center;
 }
 
 .meteo_btn {
