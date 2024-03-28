@@ -40,7 +40,7 @@ function Projects() {
                     <div className="sezioni">
                         <h2 className="whatsapp">Whatsapp<img src={whatsapp} alt="whatsapp_img" className="whatsapp_img"></img></h2>
                         <video autoPlay loop muted controls className="video" src={whatsapp_video} type="video/mp4"/>
-                        <p className="meteo_desc">
+                        <p className="whatsapp_desc">
                         This project is a web application that recreates the WhatsApp experience using the Svelte framework. It utilizes bidirectional communication between two users through sockets and a local server. Users can send and receive messages in real-time and view conversations in a chat window. The user interface has been designed to be intuitive and similar to the original WhatsApp application.
                         </p>
                         <button className="meteo_btn" onClick={openWhatsapp}>
