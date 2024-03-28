@@ -41,19 +41,10 @@ function Projects() {
                         <h2 className="whatsapp">Whatsapp<img src={whatsapp} alt="whatsapp_img" className="whatsapp_img"></img></h2>
                         <video autoPlay loop muted controls className="video" src={whatsapp_video} type="video/mp4"/>
                         <p className="meteo_desc">
-                            This website provides real-time weather information
-                            using the OpenWeather API. Users can instantly
-                            access current weather conditions, including
-                            temperature, humidity, wind speed, and more. The
-                            site offers a user-friendly interface, making it
-                            easy for visitors to quickly check the latest
-                            weather updates for any location worldwide. With
-                            accurate and up-to-date data from OpenWeather, users
-                            can plan their day and stay informed about the
-                            current weather conditions with ease.
+                        This project is a web application that recreates the WhatsApp experience using the Svelte framework. It utilizes bidirectional communication between two users through sockets and a local server. Users can send and receive messages in real-time and view conversations in a chat window. The user interface has been designed to be intuitive and similar to the original WhatsApp application.
                         </p>
                         <button className="meteo_btn" onClick={openWhatsapp}>
-                            Click to View
+                            View Code
                         </button>
                     </div>
                 </section>

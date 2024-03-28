@@ -54,6 +54,8 @@ h1 {
 
 .meteo_desc {
     text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .meteo_btn {
@@ -106,6 +108,6 @@ hr {
 
 .video{
     border-radius: 30px;
-    width: 65%;
+    width: 79%;
     height: auto;
 }
