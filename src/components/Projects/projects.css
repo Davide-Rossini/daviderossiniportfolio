@@ -6,9 +6,11 @@
 
 .projects {
     height: 100%;
-    width: 100%;
-    border: solid 1px white;
+    width: 97%;
+    margin: auto;
+    border: solid 1px rgb(174, 174, 174);
     border-radius: 10px;
+    background-color: #141414;
 }
 
 .title {
@@ -17,22 +19,30 @@
 
 .projects_sez {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     margin-bottom: 0;
     margin: 1em;
 }
 
-h1{
+h1 {
     margin-top: 1em;
-    font-size: 3em;
+    font-size: 5em;
     color: #ff8400;
 }
 
-h2{
+.weather {
     margin-bottom: 1em;
-    color: #FFD700;
+    color: #ffd700;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+}
+
+.whatsapp {
+    margin-bottom: 1em;
+    color: #25d366;
 }
 
 .meteo_img {
@@ -62,14 +72,40 @@ h2{
     color: white;
     background-color: #282828;
 }
-.meteo {
+.sezioni {
     text-align: center;
     align-content: center;
 }
 
-hr{
+hr {
     width: 100%;
     color: white;
     margin-top: 1em;
     margin-bottom: 1em;
+}
+
+.weather_img {
+    width: 50px; /* Adjust this value as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 10px;
+}
+
+.whatsapp {
+    margin-bottom: 1em;
+    color: #25d366;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Add this line */
+}
+
+.whatsapp_img {
+    width: 50px; /* Adjust this value as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 10px; /* Adjust this value as needed */
+}
+
+.video{
+    border-radius: 30px;
+    width: 65%;
+    height: auto;
 }

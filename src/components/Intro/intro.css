@@ -20,7 +20,7 @@
     justify-content: flex-start;
     opacity: 0;
     animation: fadeInUp 1s ease-out forwards;
-    left: 0; /* Allineato a sinistra */
+    left: 0;
 }
 
 @keyframes fadeInUp {
@@ -92,4 +92,8 @@ p {
 
 .cntc {
     vertical-align: -0.15em;
+}
+
+img{
+    margin-right: 30px;
 }
