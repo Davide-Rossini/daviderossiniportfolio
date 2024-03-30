@@ -108,9 +108,15 @@ hr {
     margin-left: 10px; /* Adjust this value as needed */
 }
 
-.video{
+.videowhatsapp{
     border-radius: 30px;
     width: 100%;
+    height: auto;
+}
+
+.videoweather{
+    border-radius: 30px;
+    width: 82%;
     height: auto;
 }
 

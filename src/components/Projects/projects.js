@@ -5,6 +5,7 @@ import { Element } from "react-scroll";
 import weather from "../../assets/weather.png";
 import whatsapp from "../../assets/whatsapp.png";
 import whatsapp_video from "../../assets/whatsapp_video.mp4";
+import weatherapp_video from "../../assets/weatherapp_video.mp4";
 
 function Projects() {
     const openWebsite = () => {
@@ -20,7 +21,7 @@ function Projects() {
                 <section className="projects_sez">
                     <div className="sezioni">
                         <h2 className="weather">Weather App <img src={weather} alt="weather_img" className="weather_img"></img></h2>
-                        <img src={meteo} alt="meteo" className="meteo_img" />
+                        <video autoPlay loop muted controls className="videoweather" src={weatherapp_video} type="video/mp4"/>
                         <p className="meteo_desc">
                             This website provides real-time weather information
                             using the OpenWeather API. Users can instantly
@@ -39,7 +40,7 @@ function Projects() {
                     </div>
                     <div className="sezioni">
                         <h2 className="whatsapp">Whatsapp<img src={whatsapp} alt="whatsapp_img" className="whatsapp_img"></img></h2>
-                        <video autoPlay loop muted controls className="video" src={whatsapp_video} type="video/mp4"/>
+                        <video autoPlay loop muted controls className="videowhatsapp" src={whatsapp_video} type="video/mp4"/>
                         <p className="whatsapp_desc">
                         This project is a web application that recreates the WhatsApp experience using the Svelte framework. It utilizes bidirectional communication between two users through sockets and a local server. Users can send and receive messages in real-time and view conversations in a chat window. The user interface has been designed to be intuitive and similar to the original WhatsApp application.
                         </p>
