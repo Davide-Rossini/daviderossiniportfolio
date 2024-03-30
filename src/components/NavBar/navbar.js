@@ -32,6 +32,7 @@ export const Navbar = () => {
                     to="projectsSezione"
                     draggable="false"
                     className="desktopMenuListItem"
+                    offset={-100}
                 >
                     Projects
                 </ScrollLink>
