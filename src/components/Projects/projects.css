@@ -39,6 +39,7 @@ h1 {
     align-items: center;
     justify-content: center;
     flex: 1;
+    margin-left: 0;
 }
 
 .whatsapp {
@@ -55,8 +56,6 @@ h1 {
 
 .meteo_desc {
     text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
 .meteo_btn {
@@ -78,6 +77,8 @@ h1 {
 .sezioni {
     text-align: center;
     align-content: center;
+    margin-right: 100px;
+    margin-left: 50px;
 }
 
 hr {
@@ -100,6 +101,7 @@ hr {
     align-items: center;
     justify-content: center; /* Add this line */
     flex: 1;
+    
 }
 
 .whatsapp_img {
@@ -118,12 +120,11 @@ hr {
     border-radius: 30px;
     width: 82%;
     height: auto;
+    
 }
 
 .whatsapp_desc {
     text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
 .whatsapp_btn{
