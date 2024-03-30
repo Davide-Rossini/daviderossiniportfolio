@@ -8,7 +8,7 @@
     height: 100%;
     width: 97%;
     margin: auto;
-    border: solid 1px rgb(174, 174, 174);
+    /* border: solid 1px rgb(174, 174, 174); */
     border-radius: 10px;
     background-color: #141414;
 }

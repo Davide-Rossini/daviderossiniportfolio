@@ -15,7 +15,7 @@
     z-index: 3;
     opacity: 0;
     animation: fadeInUp 1s ease-out forwards;
-    background-color: rgba(0, 0, 0, 0.92);
+    background-color: rgba(0, 0, 0, 0.92) ;
     border-radius: 10px;
 }
 
