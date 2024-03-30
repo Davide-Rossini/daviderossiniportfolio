@@ -138,3 +138,16 @@ hr {
     transition: background-color 0.3s ease, color 0.3s ease;
     margin-bottom: 10px;
 }
+
+/* Media query per adattare lo stile su schermi di dimensioni ridotte */
+@media only screen and (max-width: 768px) {
+    /* Modifiche di stile per schermi di dimensioni ridotte */
+    .projects_sez {
+        flex-direction: column;
+    }
+
+    .meteo_desc,
+    .whatsapp_desc {
+        margin: 0; /* Rimozione del margine laterale per adattarsi a schermi più piccoli */
+    }
+}

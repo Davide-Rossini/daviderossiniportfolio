@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&family=Rubik&display=swap');
 
-
 .navbar {
     height: 5rem;
-    width: 100vh;
+    width: 100%;
     max-width: 75rem;
     margin: 0 auto;
     padding: 1rem 2rem;
@@ -15,16 +14,8 @@
     z-index: 3;
     opacity: 0;
     animation: fadeInUp 1s ease-out forwards;
-    background-color: rgba(0, 0, 0, 0.92) ;
+    background-color: rgba(0, 0, 0, 0.92);
     border-radius: 10px;
-}
-
-
-@keyframes fadeInUp {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
 
 .logo {
@@ -36,12 +27,6 @@
 .desktopMenuListItem {
     margin: 1rem;
     cursor: pointer;
-}
-
-.desktopMenuListItem {
-    margin: 1rem;
-    cursor: pointer;
-    padding-bottom: 0.5rem;
     position: relative;
 }
 
@@ -61,7 +46,6 @@
     background-color: white;
 }
 
-
 .desktopMenuBtn {
     background-color: transparent;
     border: none;
@@ -76,3 +60,15 @@
     border-radius: 0.5rem;
 }
 
+@media only screen and (max-width: 768px) {
+    /* Modifiche di stile per schermi di dimensioni ridotte */
+    .navbar {
+        flex-direction: column;
+        height: auto; /* Adatta l'altezza automaticamente al contenuto */
+        padding: 1rem; /* Riduce il padding per adattarsi meglio ai dispositivi mobili */
+    }
+
+    .desktopMenuListItem {
+        margin: 0.5rem 0; /* Riduce il margine per adattarsi ai dispositivi mobili */
+    }
+}
