@@ -22,6 +22,7 @@
     object-fit: cover;
     height: 3rem;
     width: 4rem;
+    cursor: pointer;
 }
 
 .desktopMenuListItem {
@@ -33,12 +34,12 @@
 .desktopMenuListItem::after {
     content: "";
     position: absolute;
-    bottom: 0;
+    bottom: -5px; /* Sposta la linea leggermente verso il basso */
     left: 0;
     width: 100%;
     height: 3px;
     background-color: transparent;
-    transition: height 0.3s ease, background-color 0.3s ease;
+    transition: height 0.3s ease, background-color 0.3s ease, bottom 0.3s ease; /* Aggiungi anche la transizione per bottom */
 }
 
 .desktopMenuListItem:hover::after {

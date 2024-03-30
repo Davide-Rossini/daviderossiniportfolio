@@ -18,10 +18,14 @@ export const Navbar = () => {
 
     return (
         <nav className="navbar">
-            <img src={logo} alt="Logo" className="logo" draggable="false"/>
+            <div className="logoLink" onClick={() => scroll.scrollTo("homeSection", { smooth: true, duration: 500 })}>
+                <img src={logo} alt="Logo" className="logo" draggable="false"/>
+            </div>
             <div className="desktopMenu">
                 <ScrollLink
                     to="homeSection"
+                    smooth={true}
+                    duration={500}
                     draggable="false"
                     className="desktopMenuListItem"
                     onClick={scrollToProjects}
@@ -65,4 +69,3 @@ export const Navbar = () => {
 };
 
 export default Navbar;
-
