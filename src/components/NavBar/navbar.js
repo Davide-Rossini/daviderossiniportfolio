@@ -40,13 +40,13 @@ export const Navbar = () => {
                 >
                     Projects
                 </ScrollLink>
-                <ScrollLink
+                {/* <ScrollLink
                     to="aboutSection"
                     draggable="false"
                     className="desktopMenuListItem"
                 >
                     About
-                </ScrollLink>
+                </ScrollLink> */}
                 <ScrollLink
                     to="contactSection"
                     draggable="false"
