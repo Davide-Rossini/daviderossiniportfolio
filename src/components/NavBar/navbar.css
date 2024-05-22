@@ -16,6 +16,7 @@
     animation: fadeInUp 1s ease-out forwards;
     background-color: rgba(0, 0, 0, 0.92);
     border-radius: 10px;
+    
 }
 
 .logo {
@@ -64,9 +65,7 @@
 @media only screen and (max-width: 768px) {
     /* Modifiche di stile per schermi di dimensioni ridotte */
     .navbar {
-        flex-direction: column;
-        height: auto; /* Adatta l'altezza automaticamente al contenuto */
-        padding: 1rem; /* Riduce il padding per adattarsi meglio ai dispositivi mobili */
+        display: none;
     }
 
     .desktopMenuListItem {
