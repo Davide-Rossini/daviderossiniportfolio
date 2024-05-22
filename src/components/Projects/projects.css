@@ -33,13 +33,12 @@ h1 {
 }
 
 .weather {
-    margin-bottom: 10px;
+    margin-bottom: 1em;
     color: #ffd700;
-    display: flex; 
+    display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; /* Add this line */
     flex: 1;
-    margin-left: 0;
 }
 
 .whatsapp {
