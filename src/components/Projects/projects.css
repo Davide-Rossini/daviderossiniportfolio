@@ -123,11 +123,11 @@ hr {
     
 }
 
-.whatsapp_desc {
+.whatsapp_desc,.sart_desc {
     text-align: center;
 }
 
-.whatsapp_btn{
+.whatsapp_btn,.sart_btn{
     background-color: white;
     border: none;
     font-weight: bold;
@@ -138,6 +138,27 @@ hr {
     margin-top: 0.5em;
     transition: background-color 0.3s ease, color 0.3s ease;
     margin-bottom: 10px;
+}
+
+.videosart{
+    border-radius: 30px;
+    width: 100%;
+    height: auto;
+}
+
+.sart_img{
+    width: 50px; /* Adjust this value as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 10px;
+}
+
+.sart{
+    margin-bottom: 1em;
+    color: #1f9fea;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Add this line */
+    flex: 1;
 }
 
 /* Media query per adattare lo stile su schermi di dimensioni ridotte */

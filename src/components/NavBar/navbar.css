@@ -69,6 +69,6 @@
     }
 
     .desktopMenuListItem {
-        margin: 0.5rem 0; /* Riduce il margine per adattarsi ai dispositivi mobili */
+        display: none;
     }
 }

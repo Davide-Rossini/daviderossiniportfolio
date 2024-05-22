@@ -38,6 +38,7 @@
     object-fit: cover;
     height: 100vh;
     width: 50%;
+
 }
 
 .introContent {
@@ -96,4 +97,11 @@ p {
 
 img{
     margin-right: 30px;
+}
+
+@media only screen and (max-width: 1208px) {
+    
+    .bg{
+        display: none;
+    }
 }

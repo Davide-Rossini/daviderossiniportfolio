@@ -6,6 +6,8 @@ import weather from "../../assets/weather.png";
 import whatsapp from "../../assets/whatsapp.png";
 import whatsapp_video from "../../assets/whatsapp_video.mp4";
 import weatherapp_video from "../../assets/weatherapp_video.mp4";
+import sart from "../../assets/sart.png";
+import sart_video from "../../assets/sart_video.mp4";
 
 function Projects() {
     const openWebsite = () => {
@@ -13,6 +15,10 @@ function Projects() {
     };
     const openWhatsapp = () => {
         window.open("https://github.com/Davide-Rossini/whatsapp-svelte.1", "_blank");
+    };
+
+    const openSart = () => {
+        window.open("https://github.com/Davide-Rossini/SART", "_blank");
     };
     return (
         <div className="projects">
@@ -45,6 +51,16 @@ function Projects() {
                         This project is a web application that recreates the WhatsApp experience using the Svelte framework. It utilizes bidirectional communication between two users through sockets and a local server. Users can send and receive messages in real-time and view conversations in a chat window. The user interface has been designed to be intuitive and similar to the original WhatsApp application.
                         </p>
                         <button className="whatsapp_btn" onClick={openWhatsapp}>
+                            View Code
+                        </button>
+                    </div>
+                    <div className="sezioni">
+                        <h2 className="sart">SART<img src={sart} alt="sart_img" className="sart_img"></img></h2>
+                        <video autoPlay loop muted controls className="videosart" src={sart_video} type="video/mp4"/>
+                        <p className="sart_desc">
+                        This project is a web application that recreates the WhatsApp experience using the Svelte framework. It utilizes bidirectional communication between two users through sockets and a local server. Users can send and receive messages in real-time and view conversations in a chat window. The user interface has been designed to be intuitive and similar to the original WhatsApp application.
+                        </p>
+                        <button className="sart_btn" onClick={openSart}>
                             View Code
                         </button>
                     </div>

@@ -13,10 +13,10 @@ const Intro = () => {
         <section id="intro">
             <div className="introContent">
                 <span className="hello">Hello,</span>
-                <span className="introText">I'm <span className="introName">Davide</span><br /><span className="profession">Website Designer</span></span>
-                <p>I am a web developer and designer,</p>
+                <span className="introText">I'm <span className="introName">Davide</span><br /><span className="profession">Software Developer</span></span>
+                <p>I am a software developer and mock-up designer,</p>
                 <p>proficient in creating visually appealing and functional </p>
-                <p>websites with a strong foundation in coding and design principles.</p>
+                <p>applications with a strong foundation in coding and design principles.</p>
                 <Link><button draggable="false" className="btn" onClick={openLinktree}><img src={contact} alt="Contact" className="cntc"/>Hire Me</button></Link>
             </div>
             <img draggable="false" src={bg} alt="Profile" className="bg"></img>
