@@ -1,71 +1,35 @@
-.contactme{
-    height: 100%;
-    width: 100%;
-    border: solid 1px white;
-    border-radius: 10px;
+.contactme {
+    text-align: center;
+    padding: 2em 0;
+    background-color: #141414;
 }
 
-.contactme_sez{
+.title {
+    font-size: 4.3em;
+    color: #ff8400;
+    margin-bottom: 1em;
+}
+
+.contactme_sez {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    margin-bottom: 0;
-    /* margin: 1em; */
-    text-align: center;
+    gap: 1.5em;
 }
 
-#contacts{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* margin: 1em; */
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 400;
-    margin-top: 1rem;
+.contact_icon {
     color: white;
+    font-size: 2.5em;
+    transition: color 0.3s ease;
 }
 
-#phone{
-    background-color: white;
-    border: none;
-    font-weight: bold;
-    border-radius: 20px;
-    font-size: 25px;
-    padding: 10px;
-    /* margin-top: 0.5em; */
-    transition: background-color 0.3s ease, color 0.3s ease;
-    text-align: center;
+#linkedin:hover{
+    color: #0077b5;
 }
 
-#email{
-    background-color: white;
-    border: none;
-    font-weight: bold;
-    width: 500px;
-    border-radius: 20px;
-    font-size: 25px;
-    padding: 10px;
-    /* margin-top: 0.5em; */
-    transition: background-color 0.3s ease, color 0.3s ease;
-    text-align: center;
+#instagram:hover{
+    color: #e4405f;
 }
 
-.submit-btn {
-    background-color: white;
-    border: none;
-    font-weight: bold;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 30px;
-    padding: 10px;
-    margin-top: 0.5em;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.submit-btn {
-    color: white;
-    background-color: #282828;
+#email:hover{
+    color: #fff200;
 }
