@@ -5,8 +5,10 @@ import About from "./components/About/about";
 import ContactMe from "./components/ContactMe/contactme";
 import "./app.css";
 
+
 function App() {
   return (
+    
     <div className="App">
       <Navbar/>
       <Intro/>
