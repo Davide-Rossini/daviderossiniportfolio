@@ -77,7 +77,7 @@ h1 {
     text-align: center;
     align-content: center;
     margin-right: 100px;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 hr {
@@ -111,19 +111,23 @@ hr {
 
 .videowhatsapp{
     border-radius: 30px;
-    width: 100%;
+    width: 105%;
     height: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .videoweather{
     border-radius: 30px;
-    width: 82%;
+    width: 85%;
     height: auto;
     
 }
 
 .whatsapp_desc,.sart_desc {
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .whatsapp_btn,.sart_btn{
@@ -141,7 +145,7 @@ hr {
 
 .videosart{
     border-radius: 30px;
-    width: 82%;
+    width: 85%;
     height: auto;
 }
 
@@ -161,7 +165,7 @@ hr {
 }
 
 /* Media query per adattare lo stile su schermi di dimensioni ridotte */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1401px) {
     /* Modifiche di stile per schermi di dimensioni ridotte */
     .projects_sez {
         flex-direction: column;
