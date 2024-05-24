@@ -1,70 +1,54 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Benvenuti nel mio sito portfolio, un viaggio attraverso la mia carriera e le mie
+creazioni. Mi chiamo Davide Rossini, e sono uno sviluppatore con una passione per
+la tecnologia e il design. Questo portfolio è una raccolta dei miei progetti più
+significativi, che riflettono le mie competenze, la mia creatività e il mio impegno
+costante nel migliorare le mie capacità.
+Home Page
+La home page è la porta d'ingresso al mio mondo digitale. Qui troverete una breve
+introduzione su di me e sulle mie aree di competenza. Un design pulito e intuitivo vi
+guiderà attraverso le diverse sezioni del sito, con collegamenti rapidi ai miei progetti,
+al mio blog e ai miei contatti.
+Progetti
+Questa sezione è il cuore del mio portfolio. Ogni progetto è presentato con una
+descrizione dettagliata, immagini e video dimostrativi, e i collegamenti per esplorare
+ulteriormente il lavoro. Ecco alcuni dei miei progetti principali:
+1. Weather App
+● Descrizione: Un'applicazione web che fornisce informazioni
+meteorologiche in tempo reale utilizzando l'API di OpenWeather.
+L'interfaccia utente è progettata per essere user-friendly e permette agli
+utenti di accedere rapidamente alle condizioni meteo attuali per
+qualsiasi località nel mondo.
+● Tecnologie: React, OpenWeather API, CSS.
+● Collegamento: Visita il sito
+2. Whatsapp Clone
+● Descrizione: Un'applicazione web che ricrea l'esperienza di WhatsApp
+utilizzando il framework Svelte. Supporta la comunicazione
+bidirezionale in tempo reale tra due utenti tramite socket e un server
+locale, con un'interfaccia intuitiva e familiare.
+● Tecnologie: Svelte, Socket.io, Node.js.
+● Collegamento: Visualizza il codice
+3. SART (Sistema di Amministrazione delle Risorse Temporali)
+● Descrizione: Un'applicazione per la gestione delle presenze aziendali.
+Semplifica la gestione delle richieste di assenze e presenze dei
+dipendenti, migliorando l'efficienza del flusso di lavoro. Sviluppata in
+collaborazione con Andrea Quagliotti e Kevin Tafa.
+● Tecnologie: React-Native.
+● Collegamento: Visualizza il codice
+Chi Sono
+In questa sezione, scoprirete di più su di me, il mio background e la mia carriera.
+Racconto la mia storia, le mie passioni e i miei obiettivi professionali. Potrete
+conoscere il mio percorso educativo e le esperienze lavorative che mi hanno formato
+come sviluppatore.
+Blog
+Il blog è uno spazio dove condivido le mie riflessioni, le mie scoperte e le ultime
+novità nel mondo della tecnologia. Troverete articoli su argomenti che spaziano dallo
+sviluppo web alle migliori pratiche di programmazione, oltre a tutorial e guide.
+Contatti
+Mi piacerebbe entrare in contatto con voi! In questa sezione troverete tutte le
+informazioni necessarie per contattarmi. Potete seguirmi sui miei profili LinkedIn e
+Instagram, o inviarmi una email direttamente tramite il sito.
+● LinkedIn: Davide Rossini
+● Instagram: @davide__rossini__
+● Email: rossini.davide709@gmail.com
+Grazie per aver visitato il mio portfolio. Spero che vi piaccia esplorare i miei progetti
+tanto quanto io ho amato crearli. Restiamo in contatto!
