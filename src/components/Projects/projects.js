@@ -58,7 +58,7 @@ function Projects() {
                         <h2 className="sart">SART<img src={sart} alt="sart_img" className="sart_img"></img></h2>
                         <video autoPlay loop muted controls className="videosart" src={sart_video} type="video/mp4"/>
                         <p className="sart_desc">
-                        Simplify your company's attendance management with our app! Discover how to streamline requests, absences, and more, making your workflow more efficient and organized. Our user-friendly interface ensures that managing employee attendance is easier than ever before. Developed in collaboration with Andrea Quagliotti, Davide Rossini, and Kevin Tafa, this app is designed to meet the needs of modern businesses. Enhance your attendance tracking and administrative processes today!
+                        Simplify your company's attendance management with our app! Discover how to streamline requests, absences, and more, making your workflow more efficient and organized. Our user-friendly interface ensures that managing employee attendance is easier than ever before. Developed in collaboration with Andrea Quagliotti, Skerdi Velo, and Kevin Tafa, this app is designed to meet the needs of modern businesses. Enhance your attendance tracking and administrative processes today!
                         </p>
                         <button className="sart_btn" onClick={openSart}>
                             View Code
